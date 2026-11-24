@@ -1,0 +1,80 @@
+[
+  {
+    "id": "shazneen-fci-scholarship",
+    "date": "2026-11-24",
+    "featured": false,
+    "title": "Shazneen Chowdhury selected for the FCI Student Scholarship",
+    "summary": "Congratulations to Shazneen Chowdhury on being selected for a $2,500 FCI Student Scholarship! The selection committee recognized her interest in interdisciplinary research, scholarship, and collaboration.",
+    "category": "Student award",
+    "photo": {
+      "src": "assets/shazneen-fci-fieldwork.webp",
+      "width": 975,
+      "height": 1300,
+      "alt": "Shazneen Chowdhury in waders on a path at a wetland field site"
+    }
+  },
+  {
+    "id": "rashedul-wetland-fieldwork",
+    "date": "2026-11-23",
+    "featured": false,
+    "title": "Welcome to the lab, Rashedul!",
+    "summary": "On his first sampling trip to a U.S. constructed wetland, Ph.D. student Md. Rashedul Haque collected soil and water to study how wetlands remove excess nutrients. We’re glad you’re here, Rashedul!",
+    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7530649985739288576/",
+    "category": "Fieldwork",
+    "embeds": [
+      {
+        "url": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7530649985739288576?collapsed=1",
+        "height": 798
+      }
+    ]
+  },
+  {
+    "id": "shazneen-asemfl",
+    "date": "2026-11-12",
+    "featured": false,
+    "title": "Three lab members attend the 2026 ASEMFL Annual Meeting",
+    "summary": "Shazneen Chowdhury, SM Nahian Al Wasi, and Ashish Bhatta attended the 2026 ASEMFL Annual Meeting in Tampa.",
+    "url": "https://www.linkedin.com/posts/jing-hu-68379246_great-work-shazneen-ugcPost-7526644858682384384-jfsk/",
+    "category": "Conference",
+    "embeds": [
+      {
+        "url": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7526644858682384384?collapsed=1",
+        "height": 841
+      },
+      {
+        "url": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7526004246320902144?collapsed=1",
+        "height": 996
+      }
+    ]
+  },
+  {
+    "id": "canvas-early-career",
+    "date": "2026-10-29",
+    "featured": false,
+    "title": "Early-career professional development at CANVAS 2026",
+    "summary": "Dr. Jing Hu, Chair of the ASA–CSSA–SSSA Early Career Committee, led the organization of three professional development sessions at CANVAS 2026 in Portland on November 2–3. The sessions covered finding research funding, exploring career paths, and publishing research.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7521646314842140673/",
+    "category": "Professional development",
+    "embeds": [
+      {
+        "url": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7521646314842140673?collapsed=1",
+        "height": 628
+      }
+    ]
+  },
+  {
+    "id": "jacob-likins-scholarship",
+    "date": "2026-09-15",
+    "featured": false,
+    "title": "Jacob Smith earns the Roy W. Likins Scholarship",
+    "summary": "Congratulations to Jacob Smith on receiving the Roy W. Likins Scholarship from the Florida Section of the American Water Works Association! Jacob is an undergraduate researcher in our lab, and we’re proud to celebrate with him.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7505602663070416896/",
+    "category": "Student award",
+    "embeds": [
+      {
+        "url": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7505602663070416896?collapsed=1",
+        "height": 841
+      }
+    ]
+  }
+]
