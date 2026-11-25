@@ -203,7 +203,8 @@ def awards_for(name):
 def portrait(name,i):
  named_photo = A/f'portrait-{profile_id(name)}.webp'
  if named_photo.exists():
-  return f'<div class="profile-photo-frame"><img class="profile-headshot" src="assets/{named_photo.name}" alt="{E(name)}" loading="lazy"></div>'
+  framing = ' style="transform-origin: 58% 19%"' if name=='Khang Nguyen Vu' else ''
+  return f'<div class="profile-photo-frame"><img class="profile-headshot" src="assets/{named_photo.name}" alt="{E(name)}" loading="lazy"{framing}></div>'
  # Source image 20 is a branded placeholder rather than a portrait.
  framed = 'wasi-headshot-outdoors.webp' if i==6 else f'profile-{i}.webp'
  original = 'wasi-portrait-outdoors.jpg' if i==6 else f'people-{i}.jpg'
@@ -261,7 +262,9 @@ for degree,heading,slug in [('Ph.D. student','Ph.D. Students','phd-students'),('
  body+='</div></div></section>'
 
 body+='<section class="section"><div class="wrap"><h2>Undergraduate researchers.</h2><div class="undergrad-grid">'
-for n,i,since in ugs:body+=f'<article class="person" id="{profile_id(n)}">{portrait(n,i)}<h3>{n}</h3><p class="person-role">Since {E(since)}</p>{awards_for(n)}{publications_for(n)}</article>'
+for n,i,since in ugs:
+ profile_links = '<p class="profile-links"><a href="https://www.linkedin.com/in/khangnguyenvu" target="_blank" rel="noopener">LinkedIn</a></p>' if n=='Khang Nguyen Vu' else ''
+ body+=f'<article class="person" id="{profile_id(n)}">{portrait(n,i)}<h3>{n}</h3><p class="person-role">Since {E(since)}</p>{profile_links}{awards_for(n)}{publications_for(n)}</article>'
 body+='</div></div></section></div><div class="people-panel" id="alumni"><section class="section pale"><div class="wrap alumni"><div><p class="eyebrow">OUR EXTENDED COMMUNITY</p><h2>Lab alumni.</h2></div><div><h3>Postdoctoral associate</h3><p>Nisarga Kodadinne Narayana · 2023</p><h3>Undergraduate research assistants</h3><ul class="alumni-roster">' + ''.join(f'<li id="{profile_id(name)}">{E(name)} · {E(years)}{awards_for(name)}{publications_for(name)}</li>' for name,years in former_undergrads) + '</ul></div></div></section>'
 body+='</div><script src="people-tabs.js" defer></script>'
 page('people.html','People',body)
